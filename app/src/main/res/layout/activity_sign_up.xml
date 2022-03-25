@@ -89,7 +89,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/etPhoneNumber"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
+            app:hintEnabled="false"
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -109,7 +110,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/etPassword"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
+            app:hintEnabled="false"
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
