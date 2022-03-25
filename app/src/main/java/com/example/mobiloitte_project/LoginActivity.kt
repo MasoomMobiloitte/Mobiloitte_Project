@@ -15,10 +15,19 @@ class LoginActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        // intent from login to sign up
         binding.txtSignUp.setOnClickListener {
             Intent(this, SignUpActivity::class.java).also {
                 startActivity(it)
             }
+        }
+
+        // intent from login to main
+        binding.btnLogin.setOnClickListener {
+            Intent(this, MainActivity::class.java).also {
+                startActivity(it)
+            }
+            finish()
         }
 
     }

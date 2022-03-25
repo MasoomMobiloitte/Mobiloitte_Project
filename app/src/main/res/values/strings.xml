@@ -26,4 +26,11 @@
     <string name="fullname">Fullname</string>
     <string name="login_now">Login Now</string>
 
+    // Adding strings for bottom nav bar
+    <string name="home">Home</string>
+    <string name="msg">Msg</string>
+    <string name="add">Add</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+
 </resources>
