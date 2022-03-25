@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ninja Storm</string>
+    <string name="sign_up"><i><b><u>Sign Up</u></b></i></string>
+    <string name="forgot_password"><i><b><u>Forgot Password?</u></b></i></string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_password">Enter password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="please_enter_the_details_below_to_continue">Please enter the details below to continue</string>
+    <string name="signup">Signup</string>
+    <string name="social_media_link"><b>Social media link</b></string>
+    <string name="sign_up_1">Sign Up</string>
+    <string name="login1"><u><i><b>Login</b></i></u></string>
+    <string name="agreement_string">I agree to only post truthful and relevant information that is helpful to others. I understand violating this will result in my account removal.</string>
+    <string name="twitter_link">Twitter link</string>
+    <string name="facebook_link">Facebook link</string>
+    <string name="instagram_link">Instagram link</string>
+    <string name="youtube_link">YouTube link</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="bio">Bio</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email_address">Email address</string>
+    <string name="username">Username</string>
+    <string name="fullname">Fullname</string>
+    <string name="login_now">Login Now</string>
+
+</resources>
