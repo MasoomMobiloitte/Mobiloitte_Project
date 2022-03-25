@@ -1,13 +1,11 @@
-package com.example.mobiloitte_project
+package com.example.mobiloitte_project.activity
 
-import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.mobiloitte_project.R
 import com.example.mobiloitte_project.databinding.ActivityMainBinding
 import com.example.mobiloitte_project.fragment.HomeFragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.bottomnavigation.LabelVisibilityMode
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.example.mobiloitte_project
+package com.example.mobiloitte_project.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
