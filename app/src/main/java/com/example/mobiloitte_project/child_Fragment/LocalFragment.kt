@@ -12,19 +12,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mobiloitte_project.R
 import com.example.mobiloitte_project.adapter.LocalRecyclerAdapter
-import com.example.mobiloitte_project.databinding.FragmentHomeBinding
 import com.example.mobiloitte_project.model.ModelClass
 
 class LocalFragment : Fragment() {
 
-    lateinit var layoutManager : RecyclerView.LayoutManager
     lateinit var recyclerView: RecyclerView
+    lateinit var layoutManager : RecyclerView.LayoutManager
     lateinit var recyclerAdapter: LocalRecyclerAdapter
 
     val itemList =  arrayListOf<ModelClass>()
-
-    private var _binding: FragmentHomeBinding? = null
-    private val binding get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,10 +30,7 @@ class LocalFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val view = binding.root
-        // adding recyclerView by id
+        val view = inflater.inflate(R.layout.fragment_local, container, false)
         recyclerView = view.findViewById(R.id.recyclerView)
 
 
@@ -49,6 +42,13 @@ class LocalFragment : Fragment() {
         val data5 = ModelClass("Arun")
         val data6 = ModelClass("Masoom")
         val data7 = ModelClass("Mohit")
+        val data8 = ModelClass("Vishal")
+        val data9 = ModelClass("Rajdeep")
+        val data10 = ModelClass("Anuraag")
+        val data11 = ModelClass("Dubey")
+        val data12 = ModelClass("Arun")
+        val data13 = ModelClass("Masoom")
+        val data14 = ModelClass("Mohit")
 
         itemList.add(data1)
         itemList.add(data2)
@@ -57,10 +57,18 @@ class LocalFragment : Fragment() {
         itemList.add(data5)
         itemList.add(data6)
         itemList.add(data7)
+        itemList.add(data8)
+        itemList.add(data9)
+        itemList.add(data10)
+        itemList.add(data11)
+        itemList.add(data12)
+        itemList.add(data13)
+        itemList.add(data14)
+
 
 
         // recycler view added
-        layoutManager = GridLayoutManager(activity,2)
+        layoutManager = GridLayoutManager(activity, 2)
         recyclerAdapter = LocalRecyclerAdapter(activity as Context, itemList)
         recyclerView.layoutManager = layoutManager
 
