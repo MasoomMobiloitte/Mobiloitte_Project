@@ -20,7 +20,7 @@
             app:tabIndicatorColor="@color/orange"
             app:tabInlineLabel="true"
             app:tabSelectedTextColor="@color/orange"
-            app:tabMode="fixed"
+            app:tabMode="auto"
             app:tabTextAppearance="@style/CustomTabLayout"
             app:tabTextColor="@color/white" />
 

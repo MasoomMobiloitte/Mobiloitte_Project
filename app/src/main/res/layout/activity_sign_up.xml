@@ -140,6 +140,9 @@
             android:overScrollMode="always"
             android:paddingHorizontal="10dp"
             android:scrollbarStyle="insideInset"
+            android:ellipsize="start"
+            android:gravity="left|top"
+            android:paddingTop="5dp"
             android:scrollbars="vertical" />
 
         <TextView
