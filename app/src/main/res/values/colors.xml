@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FFA500</color>
+
+    // adding color for gradient
+    <color name="startColor">#FF0000</color>
+    <color name="centerColor">#C04000</color>
+    <color name="endColor">#F9EF15</color>
 </resources>
