@@ -10,7 +10,7 @@
 
     <item
         android:id="@+id/drink"
-        android:icon="@drawable/ic_drink"
+        android:icon="@drawable/ic_filter"
         android:title="drink"
         app:showAsAction="ifRoom"/>
 

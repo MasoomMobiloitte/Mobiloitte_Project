@@ -17,10 +17,11 @@
             android:layout_height="wrap_content"
             app:tabBackground="@color/black"
             app:tabGravity="fill"
+            app:tabMaxWidth="0dp"
             app:tabIndicatorColor="@color/orange"
             app:tabInlineLabel="true"
             app:tabSelectedTextColor="@color/orange"
-            app:tabMode="auto"
+            app:tabMode="fixed"
             app:tabTextAppearance="@style/CustomTabLayout"
             app:tabTextColor="@color/white" />
 
