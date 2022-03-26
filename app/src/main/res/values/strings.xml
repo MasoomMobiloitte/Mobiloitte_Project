@@ -37,6 +37,9 @@
     <string name="local_actiivty_fragment">Local Actiivty Fragment</string>
     <string name="search_post">Search post...</string>
     <string name="go">Go</string>
+    <string name="hello_message_fragment">Hello Message Fragment</string>
+    <string name="hello_chat_fragment">Hello Chat Fragment</string>
+    <string name="hello_profile_fragment">Hello Profile Fragment</string>
 
 
 </resources>
