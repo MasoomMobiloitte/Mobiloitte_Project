@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
         // cll default fragment
         openHome()
 
-
         binding.bottomNavigationView.setOnItemSelectedListener {
 
             when(it.itemId){
@@ -64,10 +63,8 @@ class MainActivity : AppCompatActivity() {
 
             }
             return@setOnItemSelectedListener true
-
         }
     }
-
 
     // open home as default screen
     fun openHome(){

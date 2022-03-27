@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mobiloitte_project.R
@@ -20,7 +21,10 @@ class LocalRecyclerAdapter(val context: Context, val itemList: ArrayList<ModelCl
 
     override fun onBindViewHolder(holder: LocalViewHolder, position: Int) {
         val text = itemList[position]
-        holder.listItemView.text = text.name
+        holder.itemImage.setImageResource(text.image)
+        holder.itemTitle.text = text.title
+        holder.itemCategory.text = text.category
+        holder.itemLocation.text = text.location
     }
 
     override fun getItemCount(): Int {
@@ -29,7 +33,10 @@ class LocalRecyclerAdapter(val context: Context, val itemList: ArrayList<ModelCl
 
     class LocalViewHolder(view : View):RecyclerView.ViewHolder(view) {
 
-        val listItemView : TextView = view.findViewById(R.id.txtLocalRecycler)
+        val itemImage : ImageView = view.findViewById(R.id.itemImage)
+        val itemTitle : TextView = view.findViewById(R.id.itemTitle)
+        val itemCategory : TextView = view.findViewById(R.id.itemCategory)
+        val itemLocation : TextView = view.findViewById(R.id.itemLocation)
 
     }
 
