@@ -3,15 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
-        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.16666666666666666" />
-        <entry key="app/src/main/res/layout/fragment_following.xml" value="0.16621376811594202" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_local.xml" value="0.16666666666666666" />
-        <entry key="app/src/main/res/layout/local_recycler.xml" value="0.21" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/PracticeProject/app/src/main/res/drawable/ic_home.xml" value="0.141" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/PracticeProject/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/PracticeProject/app/src/main/res/layout/fragment_following.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/PracticeProject/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/PracticeProject/app/src/main/res/layout/fragment_local.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/PracticeProject/app/src/main/res/menu/toolbar_menu.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_filter.xml" value="0.1465" />
+        <entry key="app/src/main/res/drawable/ic_notify.xml" value="0.1465" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.1465" />
+        <entry key="app/src/main/res/drawable/rounded_edittext.xml" value="0.139" />
+        <entry key="app/src/main/res/drawable/style_rounded_corner.xml" value="0.139" />
+        <entry key="app/src/main/res/drawable/style_rounded_corner_1.xml" value="0.1465" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_following.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.10416666666666667" />
+        <entry key="app/src/main/res/layout/fragment_local.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/local_recycler.xml" value="0.42709529276693453" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.14444444444444443" />
+        <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.17777777777777778" />
+        <entry key="app/src/main/res/xml/tabs.xml" value="0.10416666666666667" />
       </map>
     </option>
   </component>

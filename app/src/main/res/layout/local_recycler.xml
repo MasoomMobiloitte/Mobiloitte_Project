@@ -2,8 +2,14 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/cardview">
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#dcdcdc"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="15dp"
+    >
 
     <LinearLayout
         android:id="@+id/itemLayout"
@@ -32,8 +38,7 @@
                 android:text="@string/mobiloitte"
                 android:textSize="20sp"
                 android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:layout_marginVertical="3dp"/>
+                android:paddingEnd="12dp"/>
 
             <TextView
                 android:id="@+id/itemCategory"
@@ -43,20 +48,18 @@
                 android:text="@string/it_company"
                 android:textSize="20sp"
                 android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:layout_marginVertical="5dp"/>
+                android:paddingEnd="12dp"/>
 
             <TextView
                 android:id="@+id/itemLocation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/itemCategory"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
+                android:paddingStart="7dp"
+                android:paddingEnd="1dp"
                 android:textSize="20sp"
                 android:text="@string/okhla_phase_1_new_delhi"
-                app:drawableStartCompat="@drawable/ic_location"
-                android:layout_marginVertical="5dp"/>
+                app:drawableStartCompat="@drawable/ic_location"/>
 
         </RelativeLayout>
 
